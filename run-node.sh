@@ -21,15 +21,27 @@ fi
 if [ ! $LOG_STDOUT ]; then
 cat << EOB
 
-    **********************************************
-    *                                            *
-    *    Docker image: masonitedoors/node               *
-    *    https://github.com/masonitedoors/docker-node   *
-    *                                            *
-    **********************************************
-
+    ▓▓▓.                       .▓▓▓
+    ▓▓▓▓▓.                   .▓▓▓▓▓
+    ▓▓▓▓▓▓▓.               .▓▓▓▓▓▓▓
+    ▓▓▓▓'▓▓▓▓.           .▓▓▓▓'▓▓▓▓
+    ▓▓▓▓ '▓▓▓▓▓.       .▓▓▓▓▓' ▓▓▓▓
+    ▓▓▓▓   '▓▓▓▓▓.   .▓▓▓▓▓'   ▓▓▓▓
+    ▓▓▓▓     '▓▓▓▓▓.  '▓▓▓'    ▓▓▓▓
+    ▓▓▓▓     . '▓▓▓▓▓.  '      ▓▓▓▓
+    ▓▓▓▓     ▓.  '▓▓▓▓▓.       ▓▓▓▓
+    ▓▓▓▓     ▓▓▓.  '▓▓▓▓▓.     ▓▓▓▓
+    ▓▓▓▓     ▓▓▓▓    '▓▓▓▓     ▓▓▓▓
+    ▓▓▓▓     ▓▓▓▓     ▓▓▓▓     ▓▓▓▓
+    ▓▓▓▓     ▓▓▓▓     ▓▓▓▓     ▓▓▓▓
+    ▓▓▓▓     ▓▓▓▓     ▓▓▓▓     ▓▓▓▓
+    ▓▓▓▓     ▓▓▓▓     ▓▓▓▓     ▓▓▓▓
+    
+    Docker image: masonitedoors/node
+    https://github.com/masonitedoors/docker-node
+    
     SERVER SETTINGS
-    ---------------
+    -------------------------------
     · Redirect NGINX access_log to STDOUT [LOG_STDOUT]: No.
     · Redirect NGINX error_log to STDERR [LOG_STDERR]: $LOG_STDERR
     · Log Level [LOG_LEVEL]: $LOG_LEVEL
